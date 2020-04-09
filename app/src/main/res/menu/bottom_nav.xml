@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bangunruang"
+        android:icon="@drawable/ic_bgnruang"
+        android:title="Bangun Datar" />
+    <item
+        android:id="@+id/bangundatar"
+        android:icon="@drawable/ic_bgndatar"
+        android:title="Bangun Ruang" />
+
+    <item
+        android:id="@+id/aritmatik"
+        android:checked="true"
+        android:icon="@drawable/ic_aritmatik"
+        android:title="Persegi"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/operasilogic"
+        android:checked="true"
+        android:icon="@drawable/ic_logic"
+        android:title="Persegi Panjang"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_segitiga"
+        android:title="Segitiga" />
+</menu>
